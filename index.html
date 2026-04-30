@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-    <nav>
+    <nav aria-label="Navegación principal">
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#proyectos">Proyectos</a>
@@ -23,7 +23,7 @@
         <p>Portfolio personal para presentar mis proyectos, habilidades y experiencia.</p>
     </div>
 
-    <a href="assets/CV_AnderPatino.pdf" download>Descargar CV</a>
+    <a href="assets/CV_AnderPatino.pdf" download="CV_AnderPatino.pdf" class="btn-cv">Descargar CV</a>
 </header>
 
 <main>
@@ -32,7 +32,11 @@
         <p>
             Soy desarrollador web con interés en crear páginas modernas,
             accesibles y funcionales. Me gusta aprender nuevas tecnologías
-            y mejorar continuamente mis proyectos.
+            y mejorar continuamente.
+        </p>
+        <p>
+            Soy detallista y me esfuerzo por escribir código limpio y eficiente.
+            Me apasiona el diseño web y la experiencia de usuario. Siempre estoy buscando nuevas formas de expresarme.
         </p>
     </section>
 
@@ -51,14 +55,14 @@
         </ul>
     </section>
 
-    <section id="proyectos">
+    <section id="proyectos" >
         <h2>Proyectos</h2>
 
         <article>
             <h3>Nombre del proyecto</h3>
             <p>Breve descripción del proyecto, tecnologías usadas y objetivo.</p>
-            <a href="#">Ver demo</a>
-            <a href="#">Ver código</a>
+            <a href="#" aria-label="Demo no disponible actualmente">Ver demo</a>
+            <a href="#" aria-label="Código no disponible actualmente">Ver código</a>
         </article>
     </section>
 
