@@ -10,12 +10,29 @@
 </head>
 <body>
     <header>
-        <nav aria-label="Navegación principal">
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+        <div class="top-nav">
+            <nav class="navbar" aria-label="Navegación principal">
+                <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+                    ☰
+                </button>
+
+                <div class="nav-links" id="nav-links">
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+
+            <nav class="social-nav" aria-label="Redes sociales">
+                <a href="https://github.com/AnderPati" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/ander-patino-pacheco-6ba158261/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    LinkedIn
+                </a>
+            </nav>
+        </div>
 
         <div class="hero-content">
             <h1>Ander Patino</h1>
